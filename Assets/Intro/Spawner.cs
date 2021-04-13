@@ -31,7 +31,7 @@ public class Spawner : MonoBehaviour
         if (_timer <= 0)
         {
             _randomPosition = ComputeRandomPosition();
-            GameObject spawnedObject = Instantiate(_prefabToSpawn, _randomPosition, Random.rotation);
+            // GameObject spawnedObject = Instantiate(_prefabToSpawn, _randomPosition, Random.rotation);
             _timer = _period;
         }
     }
